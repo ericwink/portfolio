@@ -8,10 +8,10 @@ function App() {
         <h1>Eric Winkelspecht</h1>
         <p className='title2'>Software Engineer specializing in Web Application Development</p>
         <ul role='list'>
-          <li><a href="mailto:eric.winkelspecht@gmail.com"><img src="../public/mail.png" alt="mail" /></a></li>
-          <li><a href="https://github.com/ericwink"><img src="/github.png" alt="github" /></a></li>
-          <li><a href="https://www.linkedin.com/in/eric-winkelspecht/"><img src="/linkedin.png" alt="linkedin" /></a></li>
-          <li><a href="https://twitter.com/ericwinkdev"><img src="/twitter.png" alt="" /></a></li>
+          <li><a href="mailto:eric.winkelspecht@gmail.com" target="_blank"><img src="../public/mail.png" alt="mail" /></a></li>
+          <li><a href="https://github.com/ericwink" target="_blank"><img src="/github.png" alt="github" /></a></li>
+          <li><a href="https://www.linkedin.com/in/eric-winkelspecht/" target="_blank"><img src="/linkedin.png" alt="linkedin" /></a></li>
+          <li><a href="https://twitter.com/ericwinkdev" target="_blank"><img src="/twitter.png" alt="" /></a></li>
         </ul>
       </header>
       <section id='bio'>
@@ -29,7 +29,7 @@ function App() {
         {data.map((project, index) => {
           return (
             <div className="project">
-              <img src="https://unsplash.it/300/300" alt="" />
+              <img src={data[index].source} alt="" />
               <div className='info'>
                 <div className='titles'>
                   <h3>{data[index].name}</h3>
@@ -37,8 +37,8 @@ function App() {
                 </div>
                 <p>{data[index].description}</p>
                 <div className='buttons'>
-                  <button className='highlight'><a href={data[index].live}>View Site</a></button>
-                  <button><a href={data[index].github}>View Code</a></button>
+                  <button className='highlight'><a href={data[index].live} target="_blank">View Site</a></button>
+                  <button><a href={data[index].github} target="_blank">View Code</a></button>
                 </div>
               </div>
             </div>
