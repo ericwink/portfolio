@@ -19,7 +19,7 @@ function App() {
         <h2>Who I am</h2>
         <p>After a 10 year career in the IT solutions industry as a respected leader coordinating progress in various roles like Inside Sales, Senior Management, Training, Warehouse Systems and Logistics, I am now utilizing my passion of creative problem solving in code.</p>
         <div className='buttons'>
-          <button className='resume'>Download Resume</button>
+          <button className='highlight'>Download Resume</button>
           <button>Hire Me</button>
         </div>
       </section>
@@ -37,7 +37,7 @@ function App() {
                 </div>
                 <p>{data[index].description}</p>
                 <div className='buttons'>
-                  <button><a href={data[index].live}>View Site</a></button>
+                  <button className='highlight'><a href={data[index].live}>View Site</a></button>
                   <button><a href={data[index].github}>View Code</a></button>
                 </div>
               </div>
@@ -45,15 +45,15 @@ function App() {
           )
         })}
 
-
+        <img className='mern' src="/mernlogo.png" alt="MERN stack logo" />
 
       </section>
       <section id='contact'>
         <h2>Contact</h2>
-        <input type="text" name='name' placeholder='name' />
-        <input type="text" name='email' placeholder='email' />
-        <input type="text" name='subject' placeholder='subject' />
-        <textarea name="message" cols="30" rows="10" placeholder='message'></textarea>
+        <input type="text" name='name' placeholder='Name' />
+        <input type="text" name='email' placeholder='Email' />
+        <input type="text" name='subject' placeholder='Subject' />
+        <textarea name="message" cols="30" rows="8" placeholder='Message'></textarea>
       </section>
     </>
   )
