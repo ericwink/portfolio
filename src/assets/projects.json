@@ -33,7 +33,7 @@
   },
   {
     "name": "Pricing Component",
-    "subtitle": "View pricing options with a monthly/annually toggle",
+    "subtitle": "View pricing options with a option toggle",
     "description": "Fully responsive, programmed using HTML, CSS Flexbox, ReactJS. An example of a pricing component to highlight subscription features and pricing. Created utilizing a Figma design file from Frontend Mentor.",
     "live": "https://fem-pricing-component-with-toggle.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Pricing-Component-With-Toggle",
