@@ -391,6 +391,10 @@ button:hover {
   padding: 2em 4em;
 }
 
+#contact label {
+  display: none;
+}
+
 #contact textarea,
 #contact input {
   background-color: var(--clr-neutral-500);
