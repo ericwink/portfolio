@@ -8,6 +8,7 @@ export default function Contact({ addToFadeDowns }) {
                 <input type="text" name='email' placeholder='Email' />
                 <input type="text" name='subject' placeholder='Subject' />
                 <textarea name="message" cols="30" rows="8" placeholder='Message'></textarea>
+                <button>Submit</button>
             </form>
         </section>
     )
