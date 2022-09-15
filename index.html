@@ -7,6 +7,14 @@
     <title>Eric Winkelspecht Portfolio</title>
   </head>
   <body>
+    <!-- included for netlify forms process to work -->
+    <form name="portfolio-contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+    <!-- included for netlify forms process to work -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

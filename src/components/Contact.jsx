@@ -3,8 +3,8 @@ export default function Contact({ addToFadeDowns }) {
         <section id='contact' ref={addToFadeDowns}>
             <img src="/backlitkeyboard.jpg" alt="backlit keyboard" />
             <h2>Contact</h2>
-            <form name='portfolio-contact' method='POST' data-netlify='true' onSubmit='submit'>
-                <input type="hidden" name='hidden' value='portfolio-contact' />
+            <form name='portfolio-contact' method='POST'>
+                <input type="hidden" name='form-name' value='portfolio-contact' />
                 <label htmlFor="name">Name</label>
                 <input type="text" name='name' placeholder='Name' />
                 <label htmlFor="email">Email</label>
