@@ -2,7 +2,7 @@
   {
     "name": "The Planets",
     "subtitle": "Learn about our solar system",
-    "description": "A fully responsive Single Page Application programmed using HTML, CSS Grid, FLexbox, ReactJS. All of the data displayed is populated utilizing a JSON file. Created utilizing a FIgma design file from Frontend Mentor.",
+    "description": "A fully responsive Single Page Application programmed using HTML, CSS Grid, Flexbox, ReactJS. All of the data displayed is populated utilizing a JSON file. Created utilizing a FIgma design file from Frontend Mentor.",
     "live": "https://fem-planets.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Planet-Fact-Site",
     "source": "/planets_desktop.gif"
