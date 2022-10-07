@@ -74,7 +74,7 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture {
+picture, video {
   max-width: 100%;
   display: block;
 }
@@ -357,6 +357,10 @@ button:hover {
   transform: translateY(-50px);
 }
 
+#portfolio .video-container{
+  max-width: 463px;
+}
+
 #portfolio .info {
   padding: 0.5em;
   display: flex;
@@ -485,6 +489,10 @@ footer p {
     border: none;
   }
 
+  #portfolio .video-container{
+    max-width: 325px;
+  }
+
   #portfolio .project:nth-of-type(odd) {
     flex-direction: row-reverse;
     text-align: right;
@@ -494,11 +502,13 @@ footer p {
     justify-content: flex-end;
   }
 
-  #portfolio .project:nth-of-type(odd) img {
+  #portfolio .project:nth-of-type(odd) img, 
+  #portfolio .project:nth-of-type(odd) video {
     border-left: 1px solid var(--clr-neutral-300);
   }
 
-  #portfolio .project:nth-of-type(even) img {
+  #portfolio .project:nth-of-type(even) img, 
+  #portfolio .project:nth-of-type(even) video {
     border-right: 1px solid var(--clr-neutral-300);
     transform: translateX(1px);
   }
@@ -506,11 +516,9 @@ footer p {
   #portfolio .info {
     padding: 0 2em;
     justify-content: center;
+    max-width: 325px;
   }
 
-  #portfolio img {
-    min-width: 325px;
-  }
 
   #portfolio .mern {
     max-width: 400px;

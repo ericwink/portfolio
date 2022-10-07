@@ -1,11 +1,21 @@
 [
   {
+    "name": "Invoice Application",
+    "subtitle": "Invoicing in beauty and style",
+    "description": "A full-stack, fully responsive Invoicing Application programmed using HTML, CSS Grid, Flexbox, Svelte, NodeJS with Express.",
+    "live": "https://fem-invoice-app.netlify.app/",
+    "github": "https://github.com/ericwink/fem-invoice-app",
+    "source": "/Invoice App Video.mov",
+    "type": "video"
+  },
+  {
     "name": "The Planets",
     "subtitle": "Learn about our solar system",
-    "description": "A fully responsive Single Page Application programmed using HTML, CSS Grid, Flexbox, ReactJS. All of the data displayed is populated utilizing a JSON file. Created utilizing a FIgma design file from Frontend Mentor.",
+    "description": "A fully responsive Single Page Application programmed using HTML, CSS Grid, Flexbox, ReactJS. All of the data displayed is populated utilizing a JSON file.",
     "live": "https://fem-planets.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Planet-Fact-Site",
-    "source": "/planets_desktop.gif"
+    "source": "/planets_desktop.gif",
+    "type": "gif"
   },
   {
     "name": "Charge Buddy",
@@ -13,46 +23,52 @@
     "description": "A fully custom, full-stack project. Utilizing ReactJS, Bootstrap, Google Maps API, and data sourced through Alternative Fuel Station API from NREL.gov. Users can create an account, save stations to their favorites, leave ratings and comments.",
     "live": "https://chargebuddy.netlify.app/",
     "github": "https://github.com/ericwink/Charge-Buddy",
-    "source": "/chargebuddy_desktop.gif"
+    "source": "/chargebuddy_desktop.gif",
+    "type": "gif"
   },
   {
     "name": "Password Generator",
     "subtitle": "Select criteria and generate a random password",
-    "description": "Programmed using HTML, CSS Flexbox, ReactJS. User selections determine the characters randomly generated, and a srength rating is provided. Created utilizing a Figma design file from Frontend Mentor.",
+    "description": "Programmed using HTML, CSS Flexbox, ReactJS. User selections determine the characters randomly generated, and a srength rating is provided.",
     "live": "https://fem-password-generator.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Password-Generator",
-    "source": "/password_generator_desktop.gif"
+    "source": "/password_generator_desktop.gif",
+    "type": "gif"
   },
   {
     "name": "Rating Component",
     "subtitle": "Select a rating and submit!",
-    "description": "An example of a rating component that can be utilized in a variety of situations. Programmed using HTML, CSS Flexbox, ReactJS. Created utilizing a Figma design file from Frontend Mentor.",
+    "description": "An example of a rating component that can be utilized in a variety of situations. Programmed using HTML, CSS Flexbox, ReactJS.",
     "live": "https://fem-interactive-rating-component.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Interactive-Rating-Component",
-    "source": "/rating_component_desktop.gif"
+    "source": "/rating_component_desktop.gif",
+    "type": "gif"
   },
   {
     "name": "Pricing Component",
     "subtitle": "View pricing options with a option toggle",
-    "description": "Fully responsive, programmed using HTML, CSS Flexbox, ReactJS. An example of a pricing component to highlight subscription features and pricing. Created utilizing a Figma design file from Frontend Mentor.",
+    "description": "Fully responsive, programmed using HTML, CSS Flexbox, ReactJS. An example of a pricing component to highlight subscription features and pricing.",
     "live": "https://fem-pricing-component-with-toggle.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Pricing-Component-With-Toggle",
-    "source": "/pricing_component_desktop.gif"
+    "source": "/pricing_component_desktop.gif",
+    "type": "gif"
   },
   {
     "name": "Order Summary",
     "subtitle": "Interactive summary of a customer order",
-    "description": "Responsive design, programmed using HTML, CSS Flexbox, ReactJS. Created utilizing a Figma design file from Frontend Mentor.",
+    "description": "Responsive design, programmed using HTML, CSS Flexbox, ReactJS.",
     "live": "https://ericwink.github.io/FEM-Order-Summary-Component/",
     "github": "https://github.com/ericwink/FEM-Order-Summary-Component",
-    "source": "/order_summary_desktop.gif"
+    "source": "/order_summary_desktop.gif",
+    "type": "gif"
   },
   {
     "name": "Product Details",
     "subtitle": "Highlight a product and pricing, add to cart",
-    "description": "Responsive design, programmed using HTML, CSS Flexbox, ReactJS. Created utilizing a Figma design file from Frontend Mentor.",
+    "description": "Responsive design, programmed using HTML, CSS Flexbox, ReactJS.",
     "live": "https://ericwink.github.io/FrontendMentor-Product-preview-card-component/",
     "github": "https://github.com/ericwink/FrontendMentor-Product-preview-card-component",
-    "source": "/product_details_desktop.gif"
+    "source": "/product_details_desktop.gif",
+    "type": "gif"
   }
 ]

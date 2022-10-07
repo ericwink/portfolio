@@ -1,7 +1,15 @@
 export default function Project({ index, width, addToFlips, addToFadeDowns, project }) {
     return (
         <div className="project" ref={index === 0 ? null : width <= 800 ? addToFlips : addToFadeDowns}>
-            <img src={project.source} alt="" />
+            <div className="video-container">
+                {project.type === 'video' ?
+                    <video autoplay='true' loop='true' muted='true'>
+                        <source src={project.source} type='video/mp4' />
+                    </video>
+                    :
+                    <img src={project.source} alt="" />
+                }
+            </div>
             <div className='info'>
                 <div className='titles'>
                     <h3 >{project.name}</h3>
