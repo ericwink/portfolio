@@ -18,6 +18,14 @@
     "type": "gif"
   },
   {
+    "name": "Client Website",
+    "subtitle": "Facts about your nutrition",
+    "description": "Re-done landing page for a client, completed using HTML, CSS, JS in Angular.",
+    "source": "/transparencywise.mov",
+    "type": "video"
+  },
+  
+  {
     "name": "Charge Buddy",
     "subtitle": "Find EV Charging Stations near you",
     "description": "A fully custom, full-stack project. Utilizing ReactJS, Bootstrap, Google Maps API, and data sourced through Alternative Fuel Station API from NREL.gov. Users can create an account, save stations to their favorites, leave ratings and comments.",
@@ -29,7 +37,7 @@
   {
     "name": "Password Generator",
     "subtitle": "Select criteria and generate a random password",
-    "description": "Programmed using HTML, CSS Flexbox, ReactJS. User selections determine the characters randomly generated, and a srength rating is provided.",
+    "description": "Programmed using HTML, CSS Flexbox, ReactJS. User selections determine the characters randomly generated, and a strength rating is provided.",
     "live": "https://fem-password-generator.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Password-Generator",
     "source": "/password_generator_desktop.gif",

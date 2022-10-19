@@ -17,8 +17,9 @@ export default function Project({ index, width, addToFlips, addToFadeDowns, proj
                 </div>
                 <p>{project.description}</p>
                 <div className='buttons'>
-                    <button className='highlight'><a href={project.live} target="_blank">View Site</a></button>
-                    <button><a href={project.github} target="_blank">View Code</a></button>
+                    {!project.live ? null :
+                        <button className='highlight'><a href={project.live} target="_blank">View Site</a></button>}
+                    {!project.github ? null : <button><a href={project.github} target="_blank">View Code</a></button>}
                 </div>
             </div>
         </div>
