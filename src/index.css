@@ -74,7 +74,8 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture, video {
+picture,
+video {
   max-width: 100%;
   display: block;
 }
@@ -310,6 +311,10 @@ button:hover {
   font-size: var(--fs-subheading);
 }
 
+#bio .testamonial p {
+  color: var(--clr-primary);
+  font-style: italic;
+}
 #bio .buttons {
   display: flex;
   gap: 10px;
@@ -357,7 +362,7 @@ button:hover {
   transform: translateY(-50px);
 }
 
-#portfolio .video-container{
+#portfolio .video-container {
   max-width: 463px;
 }
 
@@ -460,9 +465,14 @@ footer p {
   }
 
   #bio img {
-    grid-row: 1/4;
-    object-fit: cover;
+    grid-row: 1/3;
     justify-self: center;
+    align-self: center;
+    object-fit: fill;
+  }
+
+  #bio .testamonial {
+    grid-column: 1/3;
   }
 
   #bio h2 {
@@ -489,7 +499,7 @@ footer p {
     border: none;
   }
 
-  #portfolio .video-container{
+  #portfolio .video-container {
     max-width: 325px;
   }
 
@@ -502,12 +512,12 @@ footer p {
     justify-content: flex-end;
   }
 
-  #portfolio .project:nth-of-type(odd) img, 
+  #portfolio .project:nth-of-type(odd) img,
   #portfolio .project:nth-of-type(odd) video {
     border-left: 1px solid var(--clr-neutral-300);
   }
 
-  #portfolio .project:nth-of-type(even) img, 
+  #portfolio .project:nth-of-type(even) img,
   #portfolio .project:nth-of-type(even) video {
     border-right: 1px solid var(--clr-neutral-300);
     transform: translateX(1px);
@@ -518,7 +528,6 @@ footer p {
     justify-content: center;
     max-width: 325px;
   }
-
 
   #portfolio .mern {
     max-width: 400px;
