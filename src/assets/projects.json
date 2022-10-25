@@ -21,6 +21,7 @@
     "name": "Client Website",
     "subtitle": "Facts about your nutrition",
     "description": "Re-done landing page for a client, completed using HTML, CSS, JS in Angular.",
+    "live": "https://transparencywise.com/",
     "source": "/transparencywise.mov",
     "type": "video"
   },
