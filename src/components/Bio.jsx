@@ -1,3 +1,5 @@
+import Technologies from "./Technologies";
+
 export default function Bio({ addToFadeDowns }) {
     return (
         <section id='bio' ref={addToFadeDowns}>
@@ -11,6 +13,7 @@ export default function Bio({ addToFadeDowns }) {
             <div className="testamonial">
                 <p>"Eric by far has been able to demonstrate his worth through his work and we're extremely happy to discover him. Highly recommend as we'll definitely be an ongoing clients of his." - Taylor W. (Freelance Client)</p>
             </div>
+            <Technologies addToFadeDowns={addToFadeDowns} />
         </section>
 
 

@@ -13,7 +13,7 @@ export default function Portfolio({ addToFadeDowns, addToFlips }) {
                     />
                 )
             })}
-            <img className='mern' src="/mernlogo.png" alt="MERN stack logo" ref={addToFadeDowns} />
+            {/* <img className='mern' src="/mernlogo.png" alt="MERN stack logo" ref={addToFadeDowns} /> */}
         </section>
     )
 }
