@@ -1,5 +1,14 @@
 [
   {
+    "name": "Connect Four",
+    "subtitle": "A classic game on web or mobile!",
+    "description": "The connect four you know and love. Programmed using HTML, CSS Grid, Flexbox, React, Greensock. A fun project that allowed me to explore data structures for managing the gameboard.",
+    "live": "https://ericwink-connectfour.netlify.app/",
+    "github": "https://github.com/ericwink/connect-four-game",
+    "source": "/connectfour.mov",
+    "type": "video"
+  },
+  {
     "name": "Invoice Application",
     "subtitle": "Invoicing in beauty and style",
     "description": "A full-stack, fully responsive Invoicing Application programmed using HTML, CSS Grid, Flexbox, Svelte, NodeJS with Express.",
