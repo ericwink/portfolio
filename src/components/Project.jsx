@@ -16,7 +16,7 @@ export default function Project({ index, width, addToFlips, addToFadeDowns, proj
                     <h5>{project.subtitle}</h5>
                 </div>
                 <p>{project.description}</p>
-                <p>Completed: {project.completed}</p>
+                {/* <p>Completed: {project.completed}</p> */}
                 <div className='buttons'>
                     {!project.live ? null :
                         <button className='highlight'><a href={project.live} target="_blank">View Site</a></button>}
