@@ -6,7 +6,8 @@
     "live": "https://ericwink-connectfour.netlify.app/",
     "github": "https://github.com/ericwink/connect-four-game",
     "source": "/connectfour.mov",
-    "type": "video"
+    "type": "video",
+    "completed": "11/3/2022"
   },
   {
     "name": "Invoice Application",
@@ -15,7 +16,8 @@
     "live": "https://fem-invoice-app.netlify.app/",
     "github": "https://github.com/ericwink/fem-invoice-app",
     "source": "/Invoice App Video.mov",
-    "type": "video"
+    "type": "video",
+    "completed": "10/7/2022"
   },
   {
     "name": "The Planets",
@@ -24,7 +26,8 @@
     "live": "https://fem-planets.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Planet-Fact-Site",
     "source": "/planets_desktop.gif",
-    "type": "gif"
+    "type": "gif",
+    "completed": "9/8/2022"
   },
   {
     "name": "Client Website",
@@ -32,18 +35,9 @@
     "description": "Re-done landing page for a client, completed using HTML, CSS, JS in Angular.",
     "live": "https://transparencywise.com/",
     "source": "/transparencywise.mov",
-    "type": "video"
-  },
-  
-  {
-    "name": "Charge Buddy",
-    "subtitle": "Find EV Charging Stations near you",
-    "description": "A fully custom, full-stack project. Utilizing ReactJS, Bootstrap, Google Maps API, and data sourced through Alternative Fuel Station API from NREL.gov. Users can create an account, save stations to their favorites, leave ratings and comments.",
-    "live": "https://chargebuddy.netlify.app/",
-    "github": "https://github.com/ericwink/Charge-Buddy",
-    "source": "/chargebuddy_desktop.gif",
-    "type": "gif"
-  },
+    "type": "video",
+    "completed": "10/18/2022"
+  }, 
   {
     "name": "Password Generator",
     "subtitle": "Select criteria and generate a random password",
@@ -51,7 +45,8 @@
     "live": "https://fem-password-generator.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Password-Generator",
     "source": "/password_generator_desktop.gif",
-    "type": "gif"
+    "type": "gif",
+    "completed": "8/31/2022"
   },
   {
     "name": "Rating Component",
@@ -60,7 +55,8 @@
     "live": "https://fem-interactive-rating-component.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Interactive-Rating-Component",
     "source": "/rating_component_desktop.gif",
-    "type": "gif"
+    "type": "gif",
+    "completed": "8/26/2022"
   },
   {
     "name": "Pricing Component",
@@ -69,7 +65,8 @@
     "live": "https://fem-pricing-component-with-toggle.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Pricing-Component-With-Toggle",
     "source": "/pricing_component_desktop.gif",
-    "type": "gif"
+    "type": "gif",
+    "completed": "8/26/2022"
   },
   {
     "name": "Order Summary",
@@ -78,7 +75,8 @@
     "live": "https://ericwink.github.io/FEM-Order-Summary-Component/",
     "github": "https://github.com/ericwink/FEM-Order-Summary-Component",
     "source": "/order_summary_desktop.gif",
-    "type": "gif"
+    "type": "gif",
+    "completed": "8/24/2022"
   },
   {
     "name": "Product Details",
@@ -87,6 +85,17 @@
     "live": "https://ericwink.github.io/FrontendMentor-Product-preview-card-component/",
     "github": "https://github.com/ericwink/FrontendMentor-Product-preview-card-component",
     "source": "/product_details_desktop.gif",
-    "type": "gif"
+    "type": "gif",
+    "completed": "8/22/2022"
+  },
+  {
+    "name": "Charge Buddy",
+    "subtitle": "Find EV Charging Stations near you",
+    "description": "A fully custom, full-stack project. Utilizing ReactJS, Bootstrap, Google Maps API, and data sourced through Alternative Fuel Station API from NREL.gov. Users can create an account, save stations to their favorites, leave ratings and comments.",
+    "live": "https://chargebuddy.netlify.app/",
+    "github": "https://github.com/ericwink/Charge-Buddy",
+    "source": "/chargebuddy_desktop.gif",
+    "type": "gif",
+    "completed": "8/16/2022"
   }
 ]
