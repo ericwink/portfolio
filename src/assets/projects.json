@@ -91,7 +91,7 @@
   {
     "name": "Charge Buddy",
     "subtitle": "Find EV Charging Stations near you",
-    "description": "A fully custom, full-stack project. Utilizing ReactJS, Bootstrap, Google Maps API, and data sourced through Alternative Fuel Station API from NREL.gov. Users can create an account, save stations to their favorites, leave ratings and comments.",
+    "description": "A fully custom, full-stack project. Utilizing ReactJS, Bootstrap, Google Maps API, and data sourced through Alternative Fuel Station API from NREL.gov. Users can create an account, leave ratings and comments.",
     "live": "https://chargebuddy.netlify.app/",
     "github": "https://github.com/ericwink/Charge-Buddy",
     "source": "/chargebuddy_desktop.gif",
