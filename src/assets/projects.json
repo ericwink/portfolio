@@ -1,5 +1,15 @@
 [
   {
+    "name": "Kanban Task Tracker",
+    "subtitle": "Get organized and manage your projects",
+    "description": "Programmed with React, this project was a learning experience for managing deeply nested state on the front-end. Views for desktop, tablet, and mobile",
+    "live": "https://kanban-ericwinkdev.netlify.app/",
+    "github": "https://github.com/ericwink/kanban-app",
+    "source": "/kanban.mov",
+    "type": "video",
+    "completed": "1/3/2023"
+  },
+  {
     "name": "Connect Four",
     "subtitle": "A classic game on web or mobile!",
     "description": "The connect four you know and love. Programmed using HTML, CSS Grid, Flexbox, React, Greensock. A fun project that allowed me to explore data structures for managing the gameboard.",
