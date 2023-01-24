@@ -8,6 +8,7 @@ export default function Header() {
                 <li><a href="https://youtube.com/@ericwinkdev" target="_blank"><img src="/youtube.png" alt="" /></a></li>
                 <li><a href="https://github.com/ericwink" target="_blank"><img src="/github.png" alt="github" /></a></li>
                 <li><a href="mailto:eric.winkelspecht@gmail.com" target="_blank"><img src="/mail.png" alt="mail" /></a></li>
+                <li><a href="https://anchor.fm/self-taught-devs" target="_blank"><img src="/rss-feed.png" alt="podcast" /></a></li>
                 {/* <li><a href="https://twitter.com/ericwinkdev" target="_blank"><img src="/twitter.png" alt="" /></a></li> */}
             </ul>
         </header>

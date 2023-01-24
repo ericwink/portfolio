@@ -2,7 +2,7 @@
   {
     "name": "Kanban Task Tracker",
     "subtitle": "Get organized and manage your projects",
-    "description": "Programmed with React, this project was a learning experience for managing deeply nested state on the front-end. Views for desktop, tablet, and mobile",
+    "description": "Programmed in React with Typescript, this project was a learning experience for managing deeply nested state. Views for desktop, app and mobile.",
     "live": "https://kanban-ericwinkdev.netlify.app/",
     "github": "https://github.com/ericwink/kanban-app",
     "source": "/kanban.mov",
