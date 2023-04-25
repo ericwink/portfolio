@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@400;600;700&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
 /* Variables*/
 :root {
-  --clr-primary: #6866c4;
+  --clr-primary: #51a4fb;
   --clr-neutral-100: #fff;
   --clr-neutral-200: #8f99a2;
   --clr-neutral-300: #6c757d;
-  --clr-neutral-300-t: #6c757d99;
+  --clr-neutral-300-t: #6c757d40;
   --clr-neutral-500: #343c41;
   --clr-neutral-700: #0f0f0f;
   --clr-neutral-900: #000;
 
-  --ff-title: "Josefin Sans", sans-serif;
-  --ff-body: "Rubik", sans-serif;
+  --ff-title: "Noto Serif", serif;
+  --ff-body: "Noto Serif", serif;
   --ff-subtitle: "Caveat", cursive;
 
   --fs-heading: 4rem;
@@ -116,7 +117,7 @@ a {
 h1,
 h2 {
   font-family: var(--ff-title);
-  color: var(--clr-primary);
+  color: var(--clr-neutral-100);
   font-size: var(--fs-heading);
   font-weight: var(--fw-bold);
 }
@@ -141,7 +142,7 @@ h5 {
   font-size: var(--ff-subtitle);
 }
 .title2 {
-  color: var(--clr-primary);
+  color: var(--clr-neutral-100);
   font-family: var(--ff-body);
   font-size: var(--fs-body);
 }
@@ -196,7 +197,8 @@ button:hover {
 }
 
 #header {
-  background-image: url("/javascript.jpg");
+  /* background-image: url("/javascript.jpg"); */
+  background-color: var(--clr-primary);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -221,7 +223,7 @@ button:hover {
   }
 }
 
-#header::before {
+/* #header::before {
   content: " ";
   position: absolute;
   z-index: -1;
@@ -229,6 +231,11 @@ button:hover {
   display: block;
   width: 100%;
   height: 100%;
+} */
+
+#header .logo {
+  content: url("/logo-mobile.svg");
+  max-width: 90%;
 }
 
 #header h1::before,
@@ -237,7 +244,7 @@ button:hover {
   display: block;
   position: relative;
   height: 5px;
-  background-color: var(--clr-primary);
+  background-color: var(--clr-neutral-100);
 }
 
 #header h1::before {
@@ -285,6 +292,7 @@ button:hover {
 #header li {
   max-width: 30px;
   transition: ease-in 200ms;
+  filter: invert(1);
 }
 #header li:hover {
   scale: 1.3;
@@ -469,7 +477,9 @@ footer p {
   button {
     max-height: 2.5em;
   }
-
+  #header .logo {
+    content: url("/logo-desktop.svg");
+  }
   #bio {
     display: grid;
     grid-template-columns: 1fr 1fr;

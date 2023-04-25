@@ -1,8 +1,9 @@
 export default function Header() {
     return (
         <header id='header'>
-            <h1>Eric Winkelspecht</h1>
-            <p className='title2'>Software Engineer specializing in Web Application Development</p>
+            <img className="logo" src="" alt="EricWinkDev" />
+            {/* <h1>EricWinkDev</h1> */}
+            {/* <p className='title2'>Custom Coding Solutions</p> */}
             <ul role='list'>
                 <li><a href="https://www.linkedin.com/in/eric-winkelspecht/" target="_blank"><img src="/linkedin.png" alt="linkedin" /></a></li>
                 <li><a href="https://youtube.com/@ericwinkdev" target="_blank"><img src="/youtube.png" alt="" /></a></li>
