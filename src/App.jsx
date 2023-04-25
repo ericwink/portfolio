@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Bio from './components/Bio'
+import CallToAction from './components/CallToAction'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -7,6 +8,7 @@ import Footer from './components/Footer'
 import { gsap } from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useEffect, useRef } from 'react'
+import Projects from './components/Projects'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -66,7 +68,8 @@ function App() {
   return (
     <>
       <Header />
-      <Bio addToFadeDowns={addToFadeDowns} />
+      <CallToAction addToFadeDowns={addToFadeDowns} />
+      <Projects />
       <Portfolio addToFadeDowns={addToFadeDowns} addToFlips={addToFlips} />
       <Contact addToFadeDowns={addToFadeDowns} />
       <Footer />

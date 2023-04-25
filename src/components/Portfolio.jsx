@@ -6,7 +6,7 @@ const width = window.innerWidth;
 export default function Portfolio({ addToFadeDowns, addToFlips }) {
     return (
         <section id='portfolio' ref={addToFadeDowns}>
-            <h2>Portfolio</h2>
+            <h2>Projects</h2>
             {data.map((project, index) => {
                 return (
                     <Project key={index} index={index} project={project} width={width} addToFlips={addToFlips} addToFadeDowns={addToFadeDowns}

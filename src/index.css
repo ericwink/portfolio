@@ -4,6 +4,7 @@
 /* Variables*/
 :root {
   --clr-primary: #51a4fb;
+  --clr-secondary: #0b55ff;
   --clr-neutral-100: #fff;
   --clr-neutral-200: #8f99a2;
   --clr-neutral-300: #6c757d;
@@ -174,7 +175,7 @@ body {
 }
 
 button {
-  border-radius: 10px;
+  border-radius: 12px;
   border: 1px solid transparent;
   padding: 0.3em 0.5em;
   background-color: var(--clr-primary);
@@ -284,7 +285,7 @@ button:hover {
   display: flex;
   gap: 20px;
   padding: 0.5em;
-  border-radius: 10px;
+  border-radius: 12px;
   align-items: center;
   animation: bg-fade-in 500ms ease-in 1000ms both;
 }
@@ -328,6 +329,43 @@ button:hover {
   display: flex;
   gap: 10px;
 }
+
+#calltoaction {
+  padding: 3em 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: var(--clr-neutral-100);
+}
+
+#calltoaction img {
+  max-width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+#calltoaction h2 {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-100);
+  max-width: fit-content;
+  padding: 0 0.25em;
+  font-size: var(--fs-subheading);
+  border-radius: 12px;
+}
+
+#calltoaction p {
+  color: var(--clr-neutral-900);
+}
+
+#calltoaction .testamonial p {
+  color: var(--clr-secondary);
+  font-style: italic;
+}
+#calltoaction .buttons {
+  display: flex;
+  gap: 10px;
+}
+
 #technologies {
   display: flex;
   flex-wrap: wrap;
@@ -338,8 +376,10 @@ button:hover {
   margin-top: 1em;
 }
 #technologies img {
-  height: 60px;
-  width: 60px;
+  height: 70px;
+}
+#technologies .git {
+  filter: invert(1);
 }
 #portfolio {
   background-color: var(--clr-neutral-700);
@@ -428,7 +468,7 @@ button:hover {
 #contact textarea,
 #contact input {
   background-color: var(--clr-neutral-500);
-  border-radius: 10px;
+  border-radius: 12px;
   border: none;
   padding: 0.5em 0.5em;
   width: 100%;
