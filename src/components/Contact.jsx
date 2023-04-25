@@ -1,6 +1,6 @@
-export default function Contact({ addToFadeDowns }) {
+export default function Contact() {
     return (
-        <section id='contact' ref={addToFadeDowns}>
+        <section id='contact' >
             <img src="/backlitkeyboard.jpg" alt="backlit keyboard" />
             <h2>Contact</h2>
             <form name='portfolio-contact' method='POST'>

@@ -1,6 +1,9 @@
+import Logo from "./logo"
 export default function Header() {
+
     return (
         <header id='header'>
+            {/* <Logo /> */}
             <img className="logo" src="" alt="EricWinkDev" />
             {/* <h1>EricWinkDev</h1> */}
             {/* <p className='title2'>Custom Coding Solutions</p> */}
