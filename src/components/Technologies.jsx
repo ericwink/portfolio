@@ -16,11 +16,19 @@ export default function Technologies() {
 
     return (
         <div id="technologies" >
-
             {technologies.map((tech, i) => {
-                return <motion.img variants={imgVariant} custom={i} initial='hidden' whileInView='visible' className={tech.className} src={tech.img} alt={tech.alt} />
+                return (
+                    <motion.img
+                        variants={imgVariant}
+                        custom={i}
+                        initial='hidden'
+                        whileInView='visible'
+                        viewport={{ once: true }}
+                        className={tech.className}
+                        src={tech.img}
+                        alt={tech.alt} />
+                )
             })}
-
-        </div >
+        </div>
     )
 }
