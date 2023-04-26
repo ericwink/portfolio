@@ -10,8 +10,8 @@ const Card = ({ name, description, live, github, source, subtitle, type }) => {
     }
 
     const expandCard = {
-        expanded: { maxWidth: 600 },
-        shrink: { maxWidth: 250 }
+        expanded: { maxWidth: '90%' },
+        shrink: { maxWidth: '25%', minWidth: 150 }
     }
 
     const video = (
@@ -22,6 +22,16 @@ const Card = ({ name, description, live, github, source, subtitle, type }) => {
 
     const image = <img src={source} alt="" />
 
+    const details = (
+        <>
+            <p>{description}</p>
+            <div className={styles.buttons}>
+                {live && <button className='highlight'><a href={live} target="_blank">View Site</a></button>}
+                {github && <button><a href={github} target="_blank">View Code</a></button>}
+            </div>
+        </>
+    )
+
     return (
         <motion.div variants={expandCard} initial='shrink' animate={isOpen ? 'expanded' : 'shrink'} className={styles.container} onClick={handleClick} >
             <div className={styles.videoContainer}>
@@ -30,13 +40,9 @@ const Card = ({ name, description, live, github, source, subtitle, type }) => {
             <div className={styles.info}>
                 <div className='titles'>
                     <h3 >{name}</h3>
-                    <h5>{subtitle}</h5>
+                    {isOpen && <h5>{subtitle}</h5>}
                 </div>
-                <p>{description}</p>
-                <div className={styles.buttons}>
-                    {live && <button className='highlight'><a href={live} target="_blank">View Site</a></button>}
-                    {github && <button><a href={github} target="_blank">View Code</a></button>}
-                </div>
+                {isOpen && details}
             </div>
 
         </motion.div>

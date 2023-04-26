@@ -1,6 +1,5 @@
 import Technologies from "../Technologies";
 import styles from './style.module.css'
-
 export default function CallToAction() {
     return (
         <section className={styles.callToAction}>
