@@ -4,7 +4,8 @@ const stroke = {
     hidden: { pathLength: 0 },
     visible: {
         pathLength: 1,
-        transition: { duration: 7, delay: 1 }
+
+        transition: { duration: 4, delay: 1, ease: 'easeInOut' }
     }
 }
 
@@ -12,7 +13,7 @@ const fill = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
-        transition: { duration: 2, delay: 3 }
+        transition: { duration: 1, delay: 3 }
     }
 }
 

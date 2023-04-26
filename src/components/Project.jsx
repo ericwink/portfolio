@@ -3,7 +3,7 @@ export default function Project() {
 
         <div className="project" >
 
-            {/* <div className="video-container">
+            <div className="video-container">
                 {project.type === 'video' ?
                     <video autoplay='true' loop='true' muted='true'>
                         <source src={project.source} type='video/mp4' />
@@ -23,7 +23,7 @@ export default function Project() {
                         <button className='highlight'><a href={project.live} target="_blank">View Site</a></button>}
                     {!project.github ? null : <button><a href={project.github} target="_blank">View Code</a></button>}
                 </div>
-            </div> */}
+            </div>
 
         </div>
 

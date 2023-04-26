@@ -4,17 +4,15 @@ import Card from './card/Card'
 
 const cards = projects.map((project) => {
     return (
-        <Card key={project.name}>
-            <h1>{project.name}</h1>
-        </Card>
+        <Card key={project.name} {...project} />
     )
 })
 
 const Projects = () => {
     return (
-        <>
+        <div id='projects'>
             {cards}
-        </>
+        </div>
     )
 }
 

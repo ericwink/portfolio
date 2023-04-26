@@ -19,6 +19,7 @@ export default function Technologies() {
             {technologies.map((tech, i) => {
                 return (
                     <motion.img
+                        key={tech.alt}
                         variants={imgVariant}
                         custom={i}
                         initial='hidden'
