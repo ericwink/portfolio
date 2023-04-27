@@ -1,16 +1,17 @@
 import { useState } from 'react'
 import styles from './card.module.css'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import Modal from '../Modal/Modal'
 import useModal from '../Modal/useModal'
 
 const Card = ({ name, subtitle, description, live, github, video_source, img_source }) => {
-    const [isExpanded, setIsExpanded] = useState(false)
     const { isOpen, openModal, closeModal } = useModal()
 
-    const expandCard = {
-        expanded: { maxWidth: '90%' },
-        shrink: { maxWidth: '25%', minWidth: 150 }
+    const big = {
+        hidden: { width: 0, height: 0 },
+        visible: {
+            width: '100%', height: '100%',
+        }
     }
 
     const video = (
@@ -33,34 +34,38 @@ const Card = ({ name, subtitle, description, live, github, video_source, img_sou
 
 
     if (!isOpen) return (
-        <div className={styles.container} onClick={openModal} >
-            <div className={styles.videoContainer}>
-                {image}
-            </div>
-            <div className={styles.info}>
-                <div className='titles'>
-                    <h2 className={styles.title}>{name}</h2>
+        <AnimatePresence initial={false} mode='wait'>
+            <motion.div initial={{ y: '-100vh' }} animate={{ y: 0 }} className={styles.container} onClick={openModal} >
+                <div className={styles.videoContainer}>
+                    {image}
                 </div>
-            </div>
-        </div>
+                <div className={styles.info}>
+                    <div className='titles'>
+                        <h2 className={styles.title}>{name}</h2>
+                    </div>
+                </div>
+            </motion.div>
+        </AnimatePresence>
     )
 
 
     return (
-        <Modal isOpen={isOpen} onClose={closeModal}>
-            <div className={styles.big} onClick={closeModal} >
-                <div className={styles.videoContainer}>
-                    {video}
-                </div>
-                <div className={styles.info}>
-                    <div className='titles'>
-                        <h3 >{name}</h3>
-                        <h5>{subtitle}</h5>
+        <AnimatePresence>
+            <Modal key={`${name}-yes`} isOpen={isOpen} onClose={closeModal} name={name}>
+                <div className={styles.big} onClick={closeModal} >
+                    <div className={styles.videoContainer}>
+                        {video}
                     </div>
-                    {details}
+                    <div className={styles.info}>
+                        <div className='titles'>
+                            <h3 >{name}</h3>
+                            <h5>{subtitle}</h5>
+                        </div>
+                        {details}
+                    </div>
                 </div>
-            </div>
-        </Modal>
+            </Modal>
+        </AnimatePresence>
     )
 }
 
