@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import styles from './card.module.css'
 import { motion } from 'framer-motion'
+import Modal from '../Modal/Modal'
+import useModal from '../Modal/useModal'
 
-const Card = ({ name, description, live, github, source, subtitle, type }) => {
-    const [isOpen, setIsOpen] = useState(false)
-
-    const handleClick = () => {
-        setIsOpen(prev => !prev)
-    }
+const Card = ({ name, subtitle, description, live, github, video_source, img_source }) => {
+    const [isExpanded, setIsExpanded] = useState(false)
+    const { isOpen, openModal, closeModal } = useModal()
 
     const expandCard = {
         expanded: { maxWidth: '90%' },
@@ -16,11 +15,11 @@ const Card = ({ name, description, live, github, source, subtitle, type }) => {
 
     const video = (
         <video className={styles.videoContainer} autoplay='false' loop='true' muted='true'>
-            <source src={source} type='video/mp4' />
+            <source src={video_source} type='video/mp4' />
         </video>
     )
 
-    const image = <img src={source} alt="" />
+    const image = <img className={styles.img} src={img_source} alt={name} />
 
     const details = (
         <>
@@ -32,20 +31,36 @@ const Card = ({ name, description, live, github, source, subtitle, type }) => {
         </>
     )
 
-    return (
-        <motion.div variants={expandCard} initial='shrink' animate={isOpen ? 'expanded' : 'shrink'} className={styles.container} onClick={handleClick} >
+
+    if (!isOpen) return (
+        <div className={styles.container} onClick={openModal} >
             <div className={styles.videoContainer}>
-                {type === 'video' ? video : image}
+                {image}
             </div>
             <div className={styles.info}>
                 <div className='titles'>
-                    <h3 >{name}</h3>
-                    {isOpen && <h5>{subtitle}</h5>}
+                    <h2 className={styles.title}>{name}</h2>
                 </div>
-                {isOpen && details}
             </div>
+        </div>
+    )
 
-        </motion.div>
+
+    return (
+        <Modal isOpen={isOpen} onClose={closeModal}>
+            <div className={styles.big} onClick={closeModal} >
+                <div className={styles.videoContainer}>
+                    {video}
+                </div>
+                <div className={styles.info}>
+                    <div className='titles'>
+                        <h3 >{name}</h3>
+                        <h5>{subtitle}</h5>
+                    </div>
+                    {details}
+                </div>
+            </div>
+        </Modal>
     )
 }
 

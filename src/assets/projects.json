@@ -5,8 +5,8 @@
     "description": "A Kanban board for project management! Views for desktop, app and mobile.",
     "live": "https://kanban-ericwinkdev.netlify.app/",
     "github": "https://github.com/ericwink/kanban-app",
-    "source": "/kanban.mov",
-    "type": "video",
+    "video_source": "/kanban.mov",
+    "img_source": "/kanban-img.png",
     "completed": "1/3/2023",
     "Technologies": "React, Typescript, CSS, Immer"
   },
@@ -16,8 +16,8 @@
     "description": "The connect four you know and love. Select from the top row to drop your piece, get four in a row to win!",
     "live": "https://ericwink-connectfour.netlify.app/",
     "github": "https://github.com/ericwink/connect-four-game",
-    "source": "/connectfour.mov",
-    "type": "video",
+    "video_source": "/connectfour.mov",
+    "img_source": "/connect-four-img.png",
     "completed": "11/3/2022",
     "Technologies": "React, Javascript, CSS, Greensock"
   },
@@ -27,8 +27,8 @@
     "description": "A full-stack, fully responsive Invoicing Application. Create invoices with cusotm items, prices, terms, and update when paid.",
     "live": "https://fem-invoice-app.netlify.app/",
     "github": "https://github.com/ericwink/fem-invoice-app",
-    "source": "/Invoice App Video.mov",
-    "type": "video",
+    "video_source": "/Invoice App Video.mov",
+    "img_source": "/Invoice-img.png",
     "completed": "10/7/2022",
     "Technologies": "Svelte, Javascript, CSS, ExpressJS, MongoDB"
   },
@@ -38,8 +38,8 @@
     "description": "A fully responsive Single Page Application to teach childrean and adults about our solar system.",
     "live": "https://fem-planets.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Planet-Fact-Site",
-    "source": "/planets_desktop.gif",
-    "type": "gif",
+    "video_source": "/planets-mov.mov",
+    "img_source": "/planets-img.png",
     "completed": "9/8/2022",
     "Technologies": "React, Javascript, CSS"
   },
@@ -48,8 +48,8 @@
     "subtitle": "Facts about your nutrition",
     "description": "A completely revamped landing page for the TransparencyWise product.",
     "live": "https://transparencywise.com/",
-    "source": "/transparencywise.mov",
-    "type": "video",
+    "video_source": "/transparencywise.mov",
+    "img_source": "/transparencywise-img.png",
     "completed": "10/18/2022",
     "Technologies": "React, Javascript, CSS"
   }
