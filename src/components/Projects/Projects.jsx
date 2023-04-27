@@ -1,6 +1,7 @@
 import projects from '../../assets/projects.json'
 import Card from '../card/Card'
 import styles from './style.module.css'
+import { motion } from 'framer-motion'
 
 const cards = projects.map((project) => {
     return (
@@ -12,10 +13,9 @@ const Projects = () => {
 
     return (
         <>
-
-            <div id='projects' className={styles.container}>
+            <motion.div layout id='projects' className={styles.container}>
                 {cards}
-            </div>
+            </motion.div>
         </>
     )
 }

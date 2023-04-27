@@ -9,14 +9,6 @@ const Modal = ({ children, isOpen, onClose, name }) => {
         visible: { opacity: 1 },
     }
 
-    // const content = {
-    //     hidden: { height: 0, width: 0, opacity: 0 },
-    //     visible: {
-    //         height: 'fit-content', width: '100%', opacity: 1,
-    //         transition: { delay: 0.3 }
-    //     }
-    // }
-
     const content = {
         hidden: { y: '-100vh' },
         visible: {
