@@ -1,7 +1,7 @@
 import styles from './style.module.css'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 
-const Modal = ({ children, isOpen, onClose, name }) => {
+const Modal = ({ children, onClose, name }) => {
 
 
     const background = {
@@ -17,8 +17,6 @@ const Modal = ({ children, isOpen, onClose, name }) => {
         }
     }
 
-    if (!isOpen) return null
-
     return (
         <motion.div key={`${name}-background`} variants={background} initial='hidden' animate='visible' exit='hidden' className={styles.background} onClick={onClose}>
             <motion.div key={`${name}-content`} variants={content} className={styles.content} onClick={(e) => e.stopPropagation()}>
@@ -26,6 +24,7 @@ const Modal = ({ children, isOpen, onClose, name }) => {
                 {children}
             </motion.div>
         </motion.div>
+
     )
 }
 
