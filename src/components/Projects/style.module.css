@@ -1,16 +1,10 @@
 .container {
   padding: 3em 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
   align-items: center;
-}
-
-.item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 @media (min-width: 600px) {

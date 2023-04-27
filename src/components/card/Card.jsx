@@ -20,7 +20,7 @@ const Card = ({ name, subtitle, description, live, github, video_source, img_sou
     )
 
     if (!isOpen) return (
-        <AnimatePresence initial={false} >
+        <AnimatePresence initial={false} mode='wait'>
             <motion.div layout initial={{ y: '-100vh' }} animate={{ y: 0 }} exit={{ y: '-100vh' }} className={styles.container} onClick={openModal} >
                 {image}
                 <div className={styles.info}>
