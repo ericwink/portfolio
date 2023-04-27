@@ -18,8 +18,8 @@ const Modal = ({ children, onClose, name }) => {
     }
 
     return (
-        <motion.div key={`${name}-background`} variants={background} initial='hidden' animate='visible' exit='hidden' className={styles.background} onClick={onClose}>
-            <motion.div key={`${name}-content`} variants={content} className={styles.content} onClick={(e) => e.stopPropagation()}>
+        <motion.div key={`${name}background`} variants={background} initial='hidden' animate='visible' exit='hidden' className={styles.background} onClick={onClose}>
+            <motion.div key={`${name}content`} variants={content} className={styles.content} onClick={(e) => e.stopPropagation()}>
                 <button className={styles.button} onClick={onClose}>X</button>
                 {children}
             </motion.div>

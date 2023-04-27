@@ -27,7 +27,7 @@ const Card = ({ size, onClick, project }) => {
     }
 
     if (size === 'small') return (
-        <motion.div variants={dropIn} initial='hidden' animate='visible' exit='hidden' className={styles.container} onClick={onClick} >
+        <motion.div layout key={`${name}small`} variants={dropIn} initial='hidden' animate='visible' exit='hidden' className={styles.container} onClick={onClick} >
             {image}
             <div className={styles.info}>
                 <h2 className={styles.title}>{name}</h2>

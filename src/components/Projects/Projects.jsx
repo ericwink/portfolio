@@ -14,9 +14,7 @@ const Projects = () => {
         const temp = [...projectArray]
         const toShow = temp.splice(index, 1)
         setProjectArray(temp)
-        setTimeout(() => {
-            setProjectModal(...toShow)
-        }, '2000')
+        setProjectModal(...toShow)
     }
 
     const pushProject = (project) => {
@@ -28,28 +26,28 @@ const Projects = () => {
 
     const cards = projectArray.map((project, index) => {
         return (
-            <AnimatePresence initial={false}>
-                <Card size='small' key={project.name} project={project} onClick={() => pullProject(index)} />
-            </AnimatePresence>
+            <Card key={`${project.name}card`} size='small' project={project} onClick={() => pullProject(index)} />
         )
     })
 
     return (
         <>
             <motion.div className={styles.container}>
-                {cards}
+                <AnimatePresence initial={false}>
+                    {cards}
+
+
+                    {projectModal &&
+                        <Modal
+                            key={`${projectModal.name}modal`}
+                            name={projectModal.name}
+                            onClose={() => pushProject(projectModal)}>
+                            <Card project={projectModal} size='big' />
+                        </Modal>
+                    }
+                </AnimatePresence>
             </motion.div>
 
-            {projectModal &&
-                <AnimatePresence>
-                    <Modal
-                        key={`${projectModal.name}-yes`}
-                        name={projectModal.name}
-                        onClose={() => pushProject(projectModal)}>
-                        <Card project={projectModal} size='big' />
-                    </Modal>
-                </AnimatePresence>
-            }
         </>
     )
 }
