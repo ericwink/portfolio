@@ -3,7 +3,6 @@ import projects from '../../assets/projects.json'
 import Card from '../card/Card'
 import styles from './style.module.css'
 import { motion, AnimatePresence } from 'framer-motion'
-import useModal from '../Modal/useModal'
 import Modal from '../Modal/Modal'
 
 const Projects = () => {
@@ -31,8 +30,10 @@ const Projects = () => {
     })
 
     return (
-        <>
-            <motion.div className={styles.container}>
+        <div className={styles.title}>
+            <h2>Projects</h2>
+
+            <div className={styles.container}>
                 <AnimatePresence initial={false}>
                     {cards}
 
@@ -46,9 +47,9 @@ const Projects = () => {
                         </Modal>
                     }
                 </AnimatePresence>
-            </motion.div>
-
-        </>
+            </div>
+            <p>...tap to view!</p>
+        </div>
     )
 }
 

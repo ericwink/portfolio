@@ -2,7 +2,7 @@
   {
     "name": "Kanban Task Tracker",
     "subtitle": "Get organized and manage your projects",
-    "description": "A Kanban board for project management! Views for desktop, app and mobile.",
+    "description": "A Kanban board for project management! Views for desktop, tablet, and mobile.",
     "live": "https://kanban-ericwinkdev.netlify.app/",
     "github": "https://github.com/ericwink/kanban-app",
     "video_source": "/kanban.mov",
@@ -24,7 +24,7 @@
   {
     "name": "Invoice Manager",
     "subtitle": "Invoicing in beauty and style",
-    "description": "A full-stack, fully responsive Invoicing Application. Create invoices with cusotm items, prices, terms, and update when paid.",
+    "description": "A full-stack, fully responsive Invoicing Application. Create invoices with custom items, prices, terms, and update when paid.",
     "live": "https://fem-invoice-app.netlify.app/",
     "github": "https://github.com/ericwink/fem-invoice-app",
     "video_source": "/Invoice App Video.mov",
@@ -35,7 +35,7 @@
   {
     "name": "The Planets",
     "subtitle": "Learn about our solar system",
-    "description": "A fully responsive Single Page Application to teach childrean and adults about our solar system.",
+    "description": "A fully responsive Single Page Application to teach children and adults about our solar system.",
     "live": "https://fem-planets.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Planet-Fact-Site",
     "video_source": "/planets-mov.mov",
@@ -46,7 +46,7 @@
   {
     "name": "Transparency Wise",
     "subtitle": "Facts about your nutrition",
-    "description": "A completely revamped landing page for the TransparencyWise product.",
+    "description": "A completely revamped landing page for the Transparency Wise product, with animations.",
     "live": "https://transparencywise.com/",
     "video_source": "/transparencywise.mov",
     "img_source": "/transparencywise-img.png",
