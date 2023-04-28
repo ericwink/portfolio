@@ -34,15 +34,15 @@ const IAmA = () => {
 
     return (
         <AnimatePresence mode='wait'>
-            <motion.h1
-                style={{ color: '#000', fontSize: 16 }}
+            <motion.h3
+                style={{ color: '#000' }}
                 variants={wordLoop}
                 initial='hidden'
                 animate='show'
                 exit='hidden'
                 key={list[index].id}>
                 {list[index].content}
-            </motion.h1>
+            </motion.h3>
         </AnimatePresence>
     )
 }

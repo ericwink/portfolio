@@ -13,7 +13,7 @@ export default function Bio() {
                     whileInView='visible'
                     viewport={{ once: true }}
                     className={styles.titleContainer}>
-                    <div>
+                    <div className={styles.nameContainer}>
                         <h2 className={styles.title} >Hi, I'm Eric</h2>
                         <IAmA />
                     </div>
@@ -22,11 +22,21 @@ export default function Bio() {
                 <motion.p variants={bioDrop}
                     initial='hidden'
                     whileInView='visible'
-                    viewport={{ once: true }} className={styles.text}>I’ve always had a passion for solving problem and building projects.</motion.p>
+                    viewport={{ once: true }} className={styles.text}
+                >I’ve always had a passion for solving problem and building projects.
+                </motion.p>
                 <motion.p variants={bioDrop}
                     initial='hidden'
                     whileInView='visible'
-                    viewport={{ once: true }} className={styles.text}>As a Software Engineer, I thrive on tackling difficult challenges and utilizing various technologies to bring awesome applications and user experiences to life</motion.p>
+                    viewport={{ once: true }} className={styles.text}>
+                    As a Software Engineer, I thrive on tackling difficult challenges and utilizing various technologies to bring awesome applications and user experiences to life
+                </motion.p>
+                <motion.p variants={bioDrop}
+                    initial='hidden'
+                    whileInView='visible'
+                    viewport={{ once: true }} className={styles.text}>
+                    If you're interested in working together, email me through the button at the top, or use the contact form below!
+                </motion.p>
             </div>
         </section>
 

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import projects from '../../assets/projects.json'
 import Card from '../card/Card'
 import styles from './style.module.css'
-import { motion, AnimatePresence } from 'framer-motion'
+import { AnimatePresence } from 'framer-motion'
 import Modal from '../Modal/Modal'
 
 const Projects = () => {
@@ -30,24 +30,26 @@ const Projects = () => {
     })
 
     return (
-        <div className={styles.title}>
-            <h2>Projects</h2>
-            <p>Some examples of what we could build together...</p>
-            <div className={styles.container}>
-                <AnimatePresence initial={false} >
-                    {cards}
+        <section className={styles.projects}>
+            <div className={styles.projectsContainer}>
+                <h2>Projects</h2>
+                <p>Some examples of what we could build together...</p>
+                <div className={styles.cardContainer}>
+                    <AnimatePresence initial={false} >
+                        {cards}
 
-                    {projectModal &&
-                        <Modal
-                            key={`${projectModal.name}modal`}
-                            name={projectModal.name}
-                            onClose={() => pushProject(projectModal)}>
-                            <Card project={projectModal} size='big' />
-                        </Modal>
-                    }
-                </AnimatePresence>
+                        {projectModal &&
+                            <Modal
+                                key={`${projectModal.name}modal`}
+                                name={projectModal.name}
+                                onClose={() => pushProject(projectModal)}>
+                                <Card project={projectModal} size='big' />
+                            </Modal>
+                        }
+                    </AnimatePresence>
+                </div>
             </div>
-        </div>
+        </section>
     )
 }
 

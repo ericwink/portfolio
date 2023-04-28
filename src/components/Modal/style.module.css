@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 90%;
+  max-width: 80vw;
 }
 
 .button {
@@ -35,9 +35,6 @@
 }
 
 @media (min-width: 600px) {
-  .content {
-    max-width: 80%;
-  }
 }
 @media (min-width: 800px) {
 }

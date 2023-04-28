@@ -27,8 +27,8 @@
 @media (max-width: 800px) {
   :root {
     --fs-heading: 3rem;
-    --fs-subheading: 2rem;
-    --fs-body: 0.9em;
+    --fs-subheading: 1.5rem;
+    --fs-body: 0.9rem;
     --fs-body-small: 0.7rem;
   }
 }

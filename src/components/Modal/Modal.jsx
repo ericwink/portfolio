@@ -13,7 +13,7 @@ const Modal = ({ children, onClose, name }) => {
     const content = {
         hidden: { y: '-100vh' },
         visible: {
-            y: 0,
+            y: -20,
             transition: { delay: 0.3 }
         }
     }

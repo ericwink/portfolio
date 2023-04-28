@@ -32,7 +32,7 @@ const Card = ({ size, onClick, project }) => {
             <div className={styles.info}>
                 <div>
                     <h3>{name}</h3>
-                    <h5>{subtitle}</h5>
+                    {/* <h5>{subtitle}</h5> */}
                 </div>
                 <p>{description}</p>
                 <div className={styles.buttons}>
