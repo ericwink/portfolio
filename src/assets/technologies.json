@@ -54,7 +54,7 @@
   {
     "img": "https://git-scm.com/images/logos/downloads/Git-Icon-White.png",
     "alt": "git",
-    "className": "git"
+    "invert": "true"
   },
   {
     "img": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",

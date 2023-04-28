@@ -1,0 +1,27 @@
+[
+  {
+    "link": "https://www.linkedin.com/in/eric-winkelspecht/",
+    "img": "/linkedin.png",
+    "alt": "linkedin"
+  },
+  {
+    "link": "https://youtube.com/@ericwinkdev/",
+    "img": "/youtube.png",
+    "alt": "youtube"
+  },
+  {
+    "link": "https://github.com/ericwink",
+    "img": "/github.png",
+    "alt": "github"
+  },
+  {
+    "link": "mailto:eric.winkelspecht@gmail.com",
+    "img": "/mail.png",
+    "alt": "email"
+  },
+  {
+    "link": "https://anchor.fm/self-taught-devs",
+    "img": "/rss-feed.png",
+    "alt": "podcast"
+  }
+]

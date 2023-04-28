@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
-import technologies from '../assets/technologies.json'
+import technologies from '../../assets/technologies.json'
+import style from './style.module.css'
 
 export default function Technologies() {
 
@@ -15,7 +16,7 @@ export default function Technologies() {
     }
 
     return (
-        <div id="technologies" >
+        <div className={style.container} >
             {technologies.map((tech, i) => {
                 return (
                     <motion.img
@@ -25,7 +26,7 @@ export default function Technologies() {
                         initial='hidden'
                         whileInView='visible'
                         viewport={{ once: true }}
-                        className={tech.className}
+                        className={tech.invert ? style.invert : style.img}
                         src={tech.img}
                         alt={tech.alt} />
                 )

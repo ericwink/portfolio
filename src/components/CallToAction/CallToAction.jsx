@@ -1,4 +1,4 @@
-import Technologies from "../Technologies";
+import Technologies from "../Technologies/Technologies";
 import styles from './style.module.css'
 export default function CallToAction() {
     return (

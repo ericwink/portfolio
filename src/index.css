@@ -180,16 +180,6 @@ button:hover {
   border: 1px solid var(--clr-primary);
 }
 
-.highlight {
-  background-color: var(--clr-neutral-900);
-  border: 1px solid var(--clr-primary);
-}
-
-.highlight:hover {
-  background-color: var(--clr-primary);
-  color: var(--clr-neutral-900);
-}
-
 #header {
   /* background-image: url("/javascript.jpg"); */
   background-color: var(--clr-primary);
@@ -220,75 +210,6 @@ button:hover {
 #header .logo {
   max-width: 870px;
   width: 90%;
-}
-
-#header h1::before,
-#header h1::after {
-  content: " ";
-  display: block;
-  position: relative;
-  height: 5px;
-  background-color: var(--clr-neutral-100);
-}
-
-#header ul {
-  background-color: var(--clr-neutral-300-t);
-  display: flex;
-  gap: 20px;
-  padding: 0.5em;
-  border-radius: 12px;
-  align-items: center;
-}
-
-#header li {
-  max-width: 30px;
-  filter: invert(1);
-}
-
-#bio {
-  padding: 3em 4em;
-  display: flex;
-  flex-direction: column;
-  gap: 0.8em;
-}
-
-#bio img {
-  max-width: 100%;
-  max-height: 350px;
-  object-fit: cover;
-}
-
-#bio h2 {
-  background-color: var(--clr-primary);
-  color: var(--clr-neutral-100);
-  max-width: fit-content;
-  padding: 0 0.25em;
-  font-size: var(--fs-subheading);
-}
-
-#bio .testamonial p {
-  color: var(--clr-primary);
-  font-style: italic;
-}
-#bio .buttons {
-  display: flex;
-  gap: 10px;
-}
-
-#technologies {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 0.8em;
-  row-gap: 1.2em;
-  margin-top: 1em;
-}
-#technologies img {
-  height: 70px;
-}
-#technologies .git {
-  filter: invert(1);
 }
 
 #contact {
@@ -339,9 +260,6 @@ footer p {
 
 /*tablet style*/
 @media (min-width: 600px) {
-  #bio {
-    padding: 3em 7em;
-  }
   #contact {
     padding: 3em 7em;
   }
@@ -351,44 +269,6 @@ footer p {
 @media (min-width: 800px) {
   button {
     max-height: 2.5em;
-  }
-
-  #bio {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 800px;
-    margin: auto;
-  }
-
-  #bio img {
-    grid-row: 1/3;
-    justify-self: center;
-    align-self: center;
-    object-fit: fill;
-  }
-
-  #bio .testamonial {
-    grid-column: 1/3;
-  }
-
-  #bio h2 {
-    align-self: center;
-  }
-
-  #bio p {
-    grid-column: 2/3;
-  }
-
-  #bio .buttons {
-    grid-column: 2/3;
-    align-self: center;
-  }
-
-  #technologies {
-    grid-column: 1/3;
-    gap: 1em;
-    grid-template-rows: 1fr 1fr;
-    margin: 1em 0;
   }
 
   #contact {
