@@ -1,5 +1,6 @@
 import styles from './style.module.css'
 import { motion } from 'framer-motion'
+import { closeButton } from '../../utilities/animations'
 
 const Modal = ({ children, onClose, name }) => {
 
@@ -18,9 +19,9 @@ const Modal = ({ children, onClose, name }) => {
     }
 
     return (
-        <motion.div key={`${name}background`} variants={background} initial='hidden' animate='visible' exit='hidden' className={styles.background} onClick={onClose}>
+        <motion.div key={`${name}background`} variants={background} initial='hidden' animate='visible' exit='hidden' className={styles.background} onClick={onClose} role='dialog' aria-modal='true'>
             <motion.div key={`${name}content`} variants={content} className={styles.content} onClick={(e) => e.stopPropagation()}>
-                <button className={styles.button} onClick={onClose}>X</button>
+                <motion.button variants={closeButton} initial='initial' whileHover='hover' whileFocus='hover' whileTap='tap' className={styles.button} onClick={onClose}>X</motion.button>
                 {children}
             </motion.div>
         </motion.div>

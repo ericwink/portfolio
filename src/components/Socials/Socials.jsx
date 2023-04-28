@@ -9,7 +9,11 @@ const Socials = () => {
         socials.map((each) => {
             const { link, img, alt } = each
             return (
-                <motion.li className={styles.social} variants={button} whileTap='tap' whileHover='hover'>
+                <motion.li
+                    className={styles.social}
+                    variants={button}
+                    whileTap='tap'
+                    whileHover='hover'>
                     <a
                         href={link}
                         target="_blank">

@@ -155,9 +155,14 @@ textarea {
   color: var(--clr-neutral-100);
 }
 
-button {
+.btn {
   font-size: var(--fs-body);
   color: var(--clr-neutral-100);
+}
+
+.btn.highlight {
+  background-color: var(--clr-neutral-900);
+  border: 1px solid var(--clr-primary);
 }
 
 /* basic styles & mobile */
@@ -167,17 +172,15 @@ body {
   background-color: var(--clr-neutral-900);
 }
 
-button {
+.btn {
   border-radius: 12px;
   border: 1px solid transparent;
   padding: 0.3em 0.5em;
   background-color: var(--clr-primary);
   color: var(--clr-neutral-100);
 }
-button:hover {
+.btn:hover {
   cursor: pointer;
-  background-color: var(--clr-neutral-900);
-  border: 1px solid var(--clr-primary);
 }
 
 #header {
@@ -267,7 +270,7 @@ footer p {
 
 /*desktop style*/
 @media (min-width: 800px) {
-  button {
+  .btn {
     max-height: 2.5em;
   }
 

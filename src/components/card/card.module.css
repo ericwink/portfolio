@@ -9,6 +9,9 @@
   border-radius: 6px;
   background-color: var(--clr-neutral-500);
 }
+.container:hover {
+  cursor: pointer;
+}
 .big {
   display: flex;
   flex-direction: column;

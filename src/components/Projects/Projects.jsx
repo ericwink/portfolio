@@ -34,7 +34,7 @@ const Projects = () => {
             <h2>Projects</h2>
 
             <div className={styles.container}>
-                <AnimatePresence initial={false}>
+                <AnimatePresence initial={false} >
                     {cards}
 
 
