@@ -63,5 +63,13 @@
   {
     "img": "/jest.png",
     "alt": "jest"
+  },
+  {
+    "img": "/prisma.png",
+    "alt": "prisma"
+  },
+  {
+    "img": "/framer-motion.webp",
+    "alt": "framer motion"
   }
 ]
