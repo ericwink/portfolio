@@ -3,6 +3,7 @@ import CallToAction from './components/CallToAction/CallToAction'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects/Projects'
+import Bio from './components/Bio/Bio'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <CallToAction />
       <Projects />
+      <Bio />
       <Contact />
       <Footer />
     </>

@@ -32,11 +32,10 @@ const Projects = () => {
     return (
         <div className={styles.title}>
             <h2>Projects</h2>
-
+            <p>Some examples of what we could build together...</p>
             <div className={styles.container}>
                 <AnimatePresence initial={false} >
                     {cards}
-
 
                     {projectModal &&
                         <Modal
@@ -48,7 +47,6 @@ const Projects = () => {
                     }
                 </AnimatePresence>
             </div>
-            <p>...tap to view!</p>
         </div>
     )
 }

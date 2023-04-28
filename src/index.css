@@ -3,7 +3,7 @@
 /* Variables*/
 :root {
   --clr-primary: #51a4fb;
-  --clr-secondary: #0b55ff;
+  --clr-secondary: #1d5ffb;
   --clr-neutral-100: #fff;
   --clr-neutral-200: #8f99a2;
   --clr-neutral-300: #6c757d;
@@ -169,7 +169,7 @@ textarea {
 
 body {
   overflow-x: hidden;
-  background-color: var(--clr-neutral-900);
+  background-color: var(--clr-primary);
 }
 
 .btn {

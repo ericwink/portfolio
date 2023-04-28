@@ -1,3 +1,6 @@
+import { motion } from 'framer-motion'
+import { contact } from '../utilities/animations'
+
 export default function Contact() {
     return (
         <section id='contact' >
@@ -13,7 +16,7 @@ export default function Contact() {
                 <input type="text" name='subject' placeholder='Subject' />
                 <label htmlFor="message">Message</label>
                 <textarea name="message" cols="30" rows="8" placeholder='Message'></textarea>
-                <button type="submit">Submit</button>
+                <motion.button variants={contact} whileFocus='hover' whileHover='hover' whileTap='tap' className="btn highlight" type="submit">Submit</motion.button>
             </form>
         </section>
     )

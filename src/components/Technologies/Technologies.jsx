@@ -1,19 +1,11 @@
 import { motion } from 'framer-motion'
 import technologies from '../../assets/technologies.json'
 import style from './style.module.css'
+import { shortDrop } from '../../utilities/animations'
 
 export default function Technologies() {
 
-    const imgVariant = {
-        hidden: { opacity: 0, y: -30 },
-        visible: i => ({
-            opacity: 100,
-            y: 0,
-            transition: {
-                delay: i * 0.2
-            }
-        })
-    }
+
 
     return (
         <div className={style.container} >
@@ -21,7 +13,7 @@ export default function Technologies() {
                 return (
                     <motion.img
                         key={tech.alt}
-                        variants={imgVariant}
+                        variants={shortDrop}
                         custom={i}
                         initial='hidden'
                         whileInView='visible'
