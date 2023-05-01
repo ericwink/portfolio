@@ -6,7 +6,7 @@ import { fadeUpChild } from '../../utilities/animations'
 
 export default function Contact() {
     const [submitted, setSubmitted] = useState(false)
-    const [error, setError] = useState(true)
+    const [error, setError] = useState(false)
 
     const handleSubmit = async (e) => {
         e.preventDefault()
