@@ -23,7 +23,7 @@ export default function Bio() {
                     initial='hidden'
                     whileInView='visible'
                     viewport={{ once: true }} className={styles.text}
-                >I’ve always had a passion for solving problem and building projects.
+                >I’ve always had a passion for solving problems and building projects.
                 </motion.p>
                 <motion.p variants={leftEnter}
                     initial='hidden'

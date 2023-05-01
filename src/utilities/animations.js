@@ -21,18 +21,6 @@ export const button = {
     tap: { scale: 0.8 },
 }
 
-export const contact = {
-    hover: {
-        scale: 1.1,
-        transition: {
-            type: 'spring',
-            stiffness: 400,
-            damping: 10
-        }
-    },
-    tap: { scale: 0.8 },
-}
-
 export const closeButton = {
     initial: { x: -15, y: 50 },
     hover: {
@@ -77,4 +65,38 @@ export const leftEnter = {
             delay: 0.5
         }
     }
+}
+
+export const fadeUpParent = {
+    hidden: {},
+    visible: {
+        transition: {
+            delay: 0.5,
+            staggerChildren: 0.2,
+            delayChildren: 0.2
+        }
+    },
+    exit: {
+        opacity: 0
+    }
+}
+
+export const fadeUpChild = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+
+}
+
+export const contactButton = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+    hover: {
+        scale: 1.1,
+        transition: {
+            type: 'spring',
+            stiffness: 400,
+            damping: 10
+        }
+    },
+    tap: { scale: 0.8 },
 }
