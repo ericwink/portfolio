@@ -4,7 +4,7 @@ import styles from './style.module.css'
 import offers from '../../assets/offer.json'
 
 const offerCards = offers.map((offer) => (
-    <OfferCard {...offer} />
+    <OfferCard key={offer.step} {...offer} />
 ))
 
 export default function CallToAction() {
