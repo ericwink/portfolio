@@ -1,3 +1,5 @@
+@import "../../index.css";
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -13,6 +15,11 @@
 .invert {
   height: 70px;
   filter: invert(1);
+}
+
+.text {
+  color: var(--clr-neutral-900);
+  align-self: center;
 }
 
 /*desktop style*/

@@ -33,7 +33,7 @@ const Projects = () => {
         <section className={styles.projects}>
             <div className={styles.projectsContainer}>
                 <h2>Projects</h2>
-                <p>Some examples of what we could build together...</p>
+                <p>Click to see what we could build together...</p>
                 <div className={styles.cardContainer}>
                     <AnimatePresence initial={false} >
                         {cards}

@@ -55,7 +55,6 @@ export const dropIn = {
         boxShadow: "6px 6px 4px rgba(0,0,0,0.3)",
         transition: { delay: 0.3 }
     },
-
 }
 
 export const shortDrop = {
@@ -69,7 +68,7 @@ export const shortDrop = {
     })
 }
 
-export const bioDrop = {
+export const leftEnter = {
     hidden: { opacity: 0, x: '-100%' },
     visible: {
         opacity: 1,
@@ -79,4 +78,3 @@ export const bioDrop = {
         }
     }
 }
-
