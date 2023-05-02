@@ -93,22 +93,6 @@ a {
   font-size: var(--fs-body);
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
 /*fonts*/
 
 * {
@@ -189,10 +173,7 @@ body {
 }
 
 #header {
-  /* background-image: url("/javascript.jpg"); */
   background-color: var(--clr-primary);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -200,19 +181,8 @@ body {
   justify-content: center;
   gap: 3em;
   position: relative;
-  z-index: 1;
   margin-block: auto;
   text-align: center;
-  animation: bg-fade-in 500ms ease-in 200ms both;
-}
-
-@keyframes bg-fade-in {
-  from {
-    opacity: 0%;
-  }
-  to {
-    opacity: 100%;
-  }
 }
 
 #header .logo {
@@ -227,9 +197,6 @@ footer p {
 
 /*tablet style*/
 @media (min-width: 600px) {
-  #contact {
-    padding: 3em 7em;
-  }
 }
 
 /*desktop style*/
