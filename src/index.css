@@ -168,7 +168,7 @@ textarea {
 /* basic styles & mobile */
 
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   background-color: var(--clr-primary);
 }
 
