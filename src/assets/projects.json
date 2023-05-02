@@ -2,110 +2,55 @@
   {
     "name": "Kanban Task Tracker",
     "subtitle": "Get organized and manage your projects",
-    "description": "Programmed in React with Typescript, this project was a learning experience for managing deeply nested state. Views for desktop, app and mobile.",
+    "description": "A Kanban board for project management! Views for desktop, tablet, and mobile.",
     "live": "https://kanban-ericwinkdev.netlify.app/",
     "github": "https://github.com/ericwink/kanban-app",
-    "source": "/kanban.mov",
-    "type": "video",
-    "completed": "1/3/2023"
+    "video_source": "/kanban.mov",
+    "img_source": "/kanban-img.png",
+    "completed": "1/3/2023",
+    "Technologies": "React, Typescript, CSS, Immer"
   },
   {
     "name": "Connect Four",
     "subtitle": "A classic game on web or mobile!",
-    "description": "The connect four you know and love. Programmed using HTML, CSS Grid, Flexbox, React, Greensock. A fun project that allowed me to explore data structures for managing the gameboard.",
+    "description": "The connect four you know and love. Select from the top row to drop your piece, get four in a row to win!",
     "live": "https://ericwink-connectfour.netlify.app/",
     "github": "https://github.com/ericwink/connect-four-game",
-    "source": "/connectfour.mov",
-    "type": "video",
-    "completed": "11/3/2022"
+    "video_source": "/connectfour.mov",
+    "img_source": "/connect-four-img.png",
+    "completed": "11/3/2022",
+    "Technologies": "React, Javascript, CSS, Greensock"
   },
   {
-    "name": "Invoice Application",
+    "name": "Invoice Manager",
     "subtitle": "Invoicing in beauty and style",
-    "description": "A full-stack, fully responsive Invoicing Application programmed using HTML, CSS Grid, Flexbox, Svelte, NodeJS with Express.",
+    "description": "A full-stack, fully responsive Invoicing Application. Create invoices with custom items, prices, terms, and update when paid.",
     "live": "https://fem-invoice-app.netlify.app/",
     "github": "https://github.com/ericwink/fem-invoice-app",
-    "source": "/Invoice App Video.mov",
-    "type": "video",
-    "completed": "10/7/2022"
+    "video_source": "/Invoice App Video.mov",
+    "img_source": "/Invoice-img.png",
+    "completed": "10/7/2022",
+    "Technologies": "Svelte, Javascript, CSS, ExpressJS, MongoDB"
   },
   {
     "name": "The Planets",
     "subtitle": "Learn about our solar system",
-    "description": "A fully responsive Single Page Application programmed using HTML, CSS Grid, Flexbox, ReactJS. All of the data displayed is populated utilizing a JSON file.",
+    "description": "A fully responsive Single Page Application to teach children and adults about our solar system.",
     "live": "https://fem-planets.netlify.app/",
     "github": "https://github.com/ericwink/FEM-Planet-Fact-Site",
-    "source": "/planets_desktop.gif",
-    "type": "gif",
-    "completed": "9/8/2022"
+    "video_source": "/planets-mov.mov",
+    "img_source": "/planets-img.png",
+    "completed": "9/8/2022",
+    "Technologies": "React, Javascript, CSS"
   },
   {
-    "name": "Client Website",
+    "name": "Transparency Wise",
     "subtitle": "Facts about your nutrition",
-    "description": "Re-done landing page for a client, completed using HTML, CSS, JS in Angular.",
+    "description": "A completely revamped landing page for the Transparency Wise product, with animations.",
     "live": "https://transparencywise.com/",
-    "source": "/transparencywise.mov",
-    "type": "video",
-    "completed": "10/18/2022"
-  },
-  {
-    "name": "Password Generator",
-    "subtitle": "Select criteria and generate a random password",
-    "description": "Programmed using HTML, CSS Flexbox, ReactJS. User selections determine the characters randomly generated, and a strength rating is provided.",
-    "live": "https://fem-password-generator.netlify.app/",
-    "github": "https://github.com/ericwink/FEM-Password-Generator",
-    "source": "/password_generator_desktop.gif",
-    "type": "gif",
-    "completed": "8/31/2022"
-  },
-  {
-    "name": "Rating Component",
-    "subtitle": "Select a rating and submit!",
-    "description": "An example of a rating component that can be utilized in a variety of situations. Programmed using HTML, CSS Flexbox, ReactJS.",
-    "live": "https://fem-interactive-rating-component.netlify.app/",
-    "github": "https://github.com/ericwink/FEM-Interactive-Rating-Component",
-    "source": "/rating_component_desktop.gif",
-    "type": "gif",
-    "completed": "8/26/2022"
-  },
-  {
-    "name": "Pricing Component",
-    "subtitle": "View pricing options with a option toggle",
-    "description": "Fully responsive, programmed using HTML, CSS Flexbox, ReactJS. An example of a pricing component to highlight subscription features and pricing.",
-    "live": "https://fem-pricing-component-with-toggle.netlify.app/",
-    "github": "https://github.com/ericwink/FEM-Pricing-Component-With-Toggle",
-    "source": "/pricing_component_desktop.gif",
-    "type": "gif",
-    "completed": "8/26/2022"
-  },
-  {
-    "name": "Order Summary",
-    "subtitle": "Interactive summary of a customer order",
-    "description": "Responsive design, programmed using HTML, CSS Flexbox, ReactJS.",
-    "live": "https://ericwink.github.io/FEM-Order-Summary-Component/",
-    "github": "https://github.com/ericwink/FEM-Order-Summary-Component",
-    "source": "/order_summary_desktop.gif",
-    "type": "gif",
-    "completed": "8/24/2022"
-  },
-  {
-    "name": "Product Details",
-    "subtitle": "Highlight a product and pricing, add to cart",
-    "description": "Responsive design, programmed using HTML, CSS Flexbox, ReactJS.",
-    "live": "https://ericwink.github.io/FrontendMentor-Product-preview-card-component/",
-    "github": "https://github.com/ericwink/FrontendMentor-Product-preview-card-component",
-    "source": "/product_details_desktop.gif",
-    "type": "gif",
-    "completed": "8/22/2022"
-  },
-  {
-    "name": "Charge Buddy",
-    "subtitle": "Find EV Charging Stations near you",
-    "description": "A fully custom, full-stack project. Utilizing ReactJS, Bootstrap, Google Maps API, and data sourced through Alternative Fuel Station API from NREL.gov. Users can create an account, leave ratings and comments.",
-    "live": "https://chargebuddy.netlify.app/",
-    "github": "https://github.com/ericwink/Charge-Buddy",
-    "source": "/chargebuddy_desktop.gif",
-    "type": "gif",
-    "completed": "8/16/2022"
+    "video_source": "/transparencywise.mov",
+    "img_source": "/transparencywise-img.png",
+    "completed": "10/18/2022",
+    "Technologies": "React, Javascript, CSS"
   }
 ]

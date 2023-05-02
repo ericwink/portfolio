@@ -1,0 +1,13 @@
+.container {
+  background-color: var(--clr-neutral-300-t);
+  display: flex;
+  gap: 20px;
+  padding: 0.5em;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.social {
+  max-width: 30px;
+  filter: invert(1);
+}

@@ -1,0 +1,40 @@
+.background {
+  min-height: 100vh;
+  min-width: 100vw;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+}
+
+.button {
+  width: 36px;
+  align-self: flex-end;
+  color: var(--clr-primary);
+  background: rgb(255, 255, 255);
+  border: 2px solid var(--clr-primary);
+  border-radius: 100px;
+  opacity: 50%;
+  padding: 5px;
+  z-index: 9999999;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+}
+@media (min-width: 800px) {
+}

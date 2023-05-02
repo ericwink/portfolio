@@ -1,0 +1,22 @@
+[
+  {
+    "step": "Consultation",
+    "img": "/consultation.svg",
+    "text": "We'll have a video call to ensure I understand exactly what you are looking for so I can meet or exceed your expectations on the final product"
+  },
+  {
+    "step": "Proposal",
+    "img": "/proposal.svg",
+    "text": "I'll provide a proposal of work to be completed so we are both in agreement on what will be done, and a time frame in which the work will be completed"
+  },
+  {
+    "step": "Draft",
+    "img": "/draft.svg",
+    "text": "I'll deliver a first draft of the project for your review. You can check this over and come back with any notes on items you want to adjust or update"
+  },
+  {
+    "step": "Delivery",
+    "img": "/delivery.svg",
+    "text": "After implementing your revisions, you'll receive your final product, up and running"
+  }
+]

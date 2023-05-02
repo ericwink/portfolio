@@ -1,0 +1,98 @@
+@import "../../index.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  max-width: 130px;
+  border: 3px solid white;
+  border-radius: 8px;
+  background-color: var(--clr-neutral-500);
+}
+.container:hover {
+  cursor: pointer;
+}
+.big {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid white;
+  border-radius: 8px;
+  background-color: var(--clr-neutral-500);
+  max-width: 90vw;
+}
+
+.info {
+  padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.videoContainer {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+/* tablet */
+@media (min-width: 600px) {
+  .container {
+    min-height: 200px;
+    max-width: 25%;
+  }
+
+  .big {
+    max-width: 550px;
+  }
+}
+
+/* desktop */
+@media (min-width: 800px) {
+  .big {
+    max-width: 700px;
+  }
+}
+
+/* heights */
+@media (min-height: 600px) {
+  .big {
+    max-width: 500px;
+  }
+}
+
+@media (min-height: 700px) {
+  .big {
+    max-width: 600px;
+  }
+}
+
+@media (min-height: 800px) {
+  .big {
+    max-width: 700px;
+  }
+}
+
+@media (min-height: 900px) {
+  .big {
+    max-width: 800px;
+  }
+}
+
+@media (min-height: 1000px) {
+  .big {
+    max-width: 900px;
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../index.css";
+
+.cardContainer {
+  background-color: var(--clr-primary);
+  border-radius: 8px;
+  max-width: 246px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.img {
+  max-height: 90px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+@media (min-width: 600px) {
+  .cardContainer {
+    max-width: 680px;
+    height: 165px;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    padding: 24px;
+  }
+  .cardContainer:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .img {
+    max-width: 100px;
+    max-height: 90px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}

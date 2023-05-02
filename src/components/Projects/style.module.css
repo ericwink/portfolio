@@ -1,0 +1,36 @@
+@import "../../index.css";
+
+.projects {
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-primary);
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 870px;
+}
+
+.cardContainer {
+  padding: 3em 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.item {
+  max-width: fit-content;
+}
+
+@media (min-width: 600px) {
+}
+@media (min-width: 800px) {
+}

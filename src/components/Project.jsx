@@ -1,6 +1,8 @@
-export default function Project({ index, width, addToFlips, addToFadeDowns, project }) {
+export default function Project() {
     return (
-        <div className="project" ref={index === 0 ? null : width <= 800 ? addToFlips : addToFadeDowns}>
+
+        <div className="project" >
+
             <div className="video-container">
                 {project.type === 'video' ?
                     <video autoplay='true' loop='true' muted='true'>
@@ -16,13 +18,14 @@ export default function Project({ index, width, addToFlips, addToFadeDowns, proj
                     <h5>{project.subtitle}</h5>
                 </div>
                 <p>{project.description}</p>
-                {/* <p>Completed: {project.completed}</p> */}
                 <div className='buttons'>
                     {!project.live ? null :
                         <button className='highlight'><a href={project.live} target="_blank">View Site</a></button>}
                     {!project.github ? null : <button><a href={project.github} target="_blank">View Code</a></button>}
                 </div>
             </div>
+
         </div>
+
     )
 }
