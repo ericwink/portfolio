@@ -1,4 +1,4 @@
-import Logo from "./logo"
+import Logo from './Logo'
 import Socials from "./Socials/Socials"
 import logoName from '/logo-name.svg'
 import { motion } from 'framer-motion'
