@@ -10,7 +10,7 @@ const Socials = () => {
             const { link, img, alt } = each
             return (
                 <motion.li
-                    key={each.name}
+                    key={`${each.alt}-li`}
                     className={styles.social}
                     variants={button}
                     whileTap='tap'

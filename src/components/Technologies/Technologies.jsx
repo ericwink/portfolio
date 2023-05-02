@@ -7,7 +7,7 @@ export default function Technologies() {
 
     return (
         <>
-            <p className={style.text}>Some technologies we may use...</p>
+            <p className={style.text}>Some technologies I may use...</p>
 
             <div className={style.container} >
                 {technologies.map((tech, i) => {
