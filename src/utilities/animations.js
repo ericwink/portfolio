@@ -9,6 +9,19 @@ export const fadeIn = {
     }
 }
 
+export const fadeInArrow = {
+    hidden: { opacity: 0 },
+    visible: {
+        opacity: 100,
+        transition: {
+            delay: 5,
+            duration: 1,
+            repeat: Infinity,
+            repeatType: 'reverse'
+        }
+    }
+}
+
 export const button = {
     hover: {
         scale: 1.2,

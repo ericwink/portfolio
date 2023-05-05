@@ -172,27 +172,13 @@ body {
   cursor: not-allowed;
 }
 
-#header {
-  background-color: var(--clr-primary);
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 3em;
-  position: relative;
-  margin-block: auto;
-  text-align: center;
-}
-
-#header .logo {
-  max-width: 870px;
-  width: 90%;
-}
-
 footer p {
   text-align: center;
   color: var(--clr-neutral-500);
+}
+
+.wlogo {
+  max-width: 90%;
 }
 
 /*tablet style*/
