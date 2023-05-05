@@ -19,8 +19,8 @@ export default function Header() {
                 variants={fadeIn}
                 initial='hidden'
                 animate='visible' />
-            <h1 className={styles.hidden}>EricWinkDev</h1>
-            <h2 className={styles.hidden}>Custom Coding Solutions</h2>
+            {/* <h1 className={styles.hidden}>EricWinkDev</h1> */}
+            {/* <h2 className={styles.hidden}>Custom Coding Solutions</h2> */}
             <Socials />
             <motion.img
                 variants={fadeInArrow}
