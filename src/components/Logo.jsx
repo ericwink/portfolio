@@ -19,7 +19,7 @@ const fill = {
 
 const Logo = () => {
     return (
-        <svg width="284" height="275" viewBox="0 0 84 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className='wlogo' width="284" height="275" viewBox="0 0 84 75" fill="none" xmlns="http://www.w3.org/2000/svg">
             <motion.path
                 variants={stroke}
                 initial='hidden'

@@ -1,0 +1,45 @@
+@import "../../index.css";
+
+.container {
+  background-color: var(--clr-primary);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+
+.logo {
+  max-width: 870px;
+  width: 90%;
+}
+
+.arrow {
+  max-width: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+.hidden {
+  position: absolute;
+  transform: translateX(100vw);
+}
+
+/*tablet style*/
+@media (min-width: 600px) {
+  .arrow {
+    max-width: 60px;
+  }
+}
+
+/*desktop style*/
+@media (min-width: 800px) {
+}
+
+/* shorter screens */
+@media (max-height: 600px) {
+  .container {
+    gap: 0px;
+  }
+}
